@@ -22,3 +22,21 @@
   - Definiere $W(T) = \int\int\phi(s,t)dF(t)TdE(s)
 
 ## W
+
+1. Riesz-Markov Verallgemeinerung
+  - $LC(C(\Omega, \mathbb R), \mathbb R)$ mit $\Omega$ kompakt $\mathsf T_2$. Ersetze hier $\mathbb R$ durch $E, F$ lokalkonvex und betrachte $LC(C(\Omega, E),F)$
+  - Führt in Richtung Vektorwertige Maße
+2. Regularly varying functions
+  - $f: [1, \infty)\to (0, \infty)$ verhalten sich in Asymptotik "ungefähr wie eine Potenz aber doch bissi anders" also $\forall \lambda>0: \lim_{t\to \infty}\frac{f(\lambda t)}{f(t)} = \lambda^s$.
+  - Damit kann man einige Sachen machen wie mit Potenzen (z.B. asymptotisch Integrieren)
+3. Topologisierung Meromorphe Funktionen
+  - $\mathrm{Hol}(G, \mathbb C)$, lokal gleichmäßige Konvergenz, vollständig, Metrik, Frechet-Raum.
+  - $\mathrm{Mer}(G, \mathbb C)$ (meromorphe Funktionen auf $G$) $= Hol(G, S^2)$, lokal gleichmäßige Konvergenz (chordale Metrik)
+  - Kann man die meromorphen Funktionen so topologisieren, dass vollständig aber dennoch algebraische Operationen mit vernünftigen Eigenschaften.
+4. Punktweise Konvergenz
+  - $f_n\to f$, $f_n$ analytisch, dann ist auch $f$ analytisch sofern die Konvergenz lokal gleichmäßig ist.
+  - Bei punktweiser Konvergenz gilt dies nicht.
+  - Welche Funktionen sind punktweise approximierbar?
+5. Liegen Nullstellen eines Polynoms im Einheitskreis?
+  - Sei $p(z) = a_nz^n + \dots + a_0$.
+  - Liegen alle Nullstellen von $p$ in $\mathbb D$?
